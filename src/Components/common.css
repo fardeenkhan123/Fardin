@@ -1,0 +1,74 @@
+.new{
+    color: #0071BD;
+}
+.size{
+    font-size:  250%;
+}
+.lorem{
+    font-size: 120%;
+}
+.but{
+    border-radius: 0px 100px 100px 150px;
+    background-color:#0071BD ;
+    color: white;
+    border: none;
+    font-size: medium;
+}
+img{
+    margin-top: -520px;
+    margin-left: 450px;
+    display: flex;
+}
+.col{
+    height: 100px;
+    width: 700px;
+background-color:  #F15A24;
+    border-radius: 0px 30px 0px 30px;
+    position:relative;
+    left: 30%;
+    bottom: 100px;
+    
+}
+.div2{
+    background-color: lightgray;
+    text-align: center;
+    height: 650px;
+    width: 100%;
+}
+.shop{
+    text-align: center;
+}
+.range{
+     width: 20%;
+    position: relative;
+    margin-bottom: 50px;
+    
+    
+}
+@media screen and (min-width:480px) {
+        body{
+            height: none;
+            width: none;
+             margin: none;
+             display: flex;
+             flex-wrap: wrap;
+          
+
+        }
+   
+        
+    
+}
+@media screen and (max-width:1200px){
+      body{
+            height: none;
+            width: none;
+            margin: none;
+            display: flex;
+            flex-wrap: wrap;
+           
+      }
+
+     
+    
+}
